@@ -1,0 +1,3 @@
+ssid = myssid
+password = mypass
+key = mykey
