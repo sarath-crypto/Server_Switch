@@ -15,7 +15,7 @@ do
                         ts=$(date)
                         echo "$ts kalive: Halt Request received" >> /data/log.txt                                                                                                            /data/log.txt
                         shutdown
-                        sleep 60
+                        sleep 120
                 fi
         fi
         sleep 2
