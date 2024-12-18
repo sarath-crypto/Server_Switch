@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ts=$(date)
-echo  "$ts kalive: Initializing..." >> /home/sarath/data/log.txt
+echo  "$ts kalive: Initializing..." >> /data/log.txt
 
 while [ true ];
 do
