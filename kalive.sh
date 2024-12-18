@@ -9,7 +9,7 @@ do
         if [[ ! -z "$rx" ]]; then
                 if [ "$rx" == "serverkey" ]; then
                         data="serverkey"
-                        echo $data | socat -t 0 - udp4-sendto:192.168.1.4:8088
+                        echo $data | socat -t 0 - udp4-sendto:192.168.100.44:8088
                 fi
                 if [ "$rx" == "HALT" ]; then
                         ts=$(date)
