@@ -13,7 +13,7 @@ do
                 fi
                 if [ "$rx" == "HALT" ]; then
                         ts=$(date)
-                        echo "$ts kalive: Halt Request received" >> /home/sarath                                                                                                             /data/log.txt
+                        echo "$ts kalive: Halt Request received" >> /data/log.txt                                                                                                            /data/log.txt
                         shutdown
                         sleep 60
                 fi
